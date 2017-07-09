@@ -1,0 +1,28 @@
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table, th, td {
+	border: 3px groove black;
+	background-color: #EEE8AA;
+	padding: 3px;
+}
+
+th {
+	background-color: coral;
+}
+
+tr:hover {
+	background-color: pink;
+	color: purple;
+	font-size: 20px;
+}
+
+td, th {
+	text-align: center
+}
+
+.rank, .area {
+	text-align: right;
+}
